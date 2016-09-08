@@ -9,3 +9,6 @@ print(response.status_code)
 
 response = requests.get("http://ccid-eddieantonio.rhcloud.com/touqir")
 print(response.status_code)
+
+response = requests.get("https://github.com/touqir14/Cmput_404_Labs/raw/master/Lab1/lab1_python3.py")
+print(response.text)
