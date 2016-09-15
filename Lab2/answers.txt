@@ -1,0 +1,15 @@
+Question 1:
+How do you specify a TCP socket in python?
+Ans: socket.socket(socket.AF_INET, socket.SOCK_STREAM). socket_AF_INET specifices IPv4 internet and socket.SOCK_STREAM specifice TCP connection.
+
+Question 2:
+ans: Server socket binds to a port and begins listening to it and wait for connection requests from clients. Clients call connect() function that sends connection request to the server's socket.
+
+Question 3:
+ans: 	clientSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)	
+
+Question 4:
+ans: We get the client's IP address and the port it is listenning to for replies from server
+
+Question 5:
+ans:  Empty string from recv() function from google

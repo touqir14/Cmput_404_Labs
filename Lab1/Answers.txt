@@ -23,6 +23,8 @@ Question 7: What is the status code returned this time? What does it mean?
 Ans: 405 METHOD NOT ALLOWED. Returned for curl -i http://ccid-eddieantonio.rhcloud.com/ . It means that a request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.(wikipedia)
 curl -X POST -i http://ccid-eddieantonio.rhcloud.com/touqir returns status code: 202 Accepted. It means that the request has been accepted for processing, but the processing has not been completed(wikipedia).
 
+Question 8: https://github.com/touqir14/Cmput_404_Labs/blob/master/Lab1/lab1_python3.py for python 3 virtual environment. For Question 2, run this with python2: https://github.com/touqir14/Cmput_404_Labs/blob/master/Lab1/lab1_python2.py
+
 
 
 
